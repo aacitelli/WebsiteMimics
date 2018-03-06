@@ -40,3 +40,78 @@
     background-color: black;
     height: 1px;
 }
+
+#logoSpace
+{
+    margin-top: 0;
+    height: 150px;
+    background-color: darkred;
+}
+
+#WALogo
+{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#schoolTitle
+{
+    position: absolute;
+    margin-left: 200px;
+    padding-top: 45px;
+    font-size: 40px;
+}
+
+#schoolTitle a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.motto
+{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+#schoolMottoLine1
+{
+    padding-left: 900px;
+    padding-top: 45px;
+}
+
+#schoolMottoLine2
+{
+    padding-left: 940px;
+    padding-top: 70px;
+}
+
+#mainNavbar
+{
+    text-align: center;
+    background-color: black;
+}
+
+#mainNavbar ul
+{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#mainNavbar li
+{
+    display: inline;
+    font-size: 20px;
+    padding-left: 50px;
+    color: white;
+}
+
+#mainNavbar a
+{
+    text-decoration: none;
+    color: white;
+}
