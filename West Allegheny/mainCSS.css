@@ -124,16 +124,63 @@
     vertical-align: bottom;
 }
 
+#slideshowTextBackground {
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+    height: 120px;
+    width: 500px;
+    background: rgba(0, 0, 0, .75);
+}
+
+
+#slideshowText
+{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: white;
+    font-size: 38px;
+}
+
 #buttonsBackgroundTop
 {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: cornflowerblue;
+    text-align: center;
 }
 
-#buttonsBackgroundBottom
+.button
 {
-    width: 100%;
-    height: 50px;
-    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
 }
+
+.buttonPicture
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 30px;
+}
+
+.buttonText
+{
+    position: relative;
+    font-size: 20px;
+    top: 40px;
+    color: white;
+}
+
+#buttonCalendarBackground { background-color: deepskyblue; }
+#buttonStudentsBackground { background-color: red; }
+#buttonStaffBackground { background-color: purple; }
+#buttonParentsBackground { background-color: orange; }
+#buttonStaffDirectoryBackground { background-color: green; }
+
