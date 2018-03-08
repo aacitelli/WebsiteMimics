@@ -46,6 +46,7 @@
     margin-top: 0;
     height: 150px;
     background-color: darkred;
+    text-align: center;
 }
 
 #WALogo
@@ -114,4 +115,25 @@
 {
     text-decoration: none;
     color: white;
+}
+
+#pictureSpace img
+{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+#buttonsBackgroundTop
+{
+    width: 100%;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+#buttonsBackgroundBottom
+{
+    width: 100%;
+    height: 50px;
+    background-color: white;
 }
