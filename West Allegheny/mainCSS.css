@@ -146,8 +146,13 @@
 #buttonsBackgroundTop
 {
     width: 100%;
-    height: 300px;
-    background-color: cornflowerblue;
+    height: 225px;
+    background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px    );
     text-align: center;
 }
 
