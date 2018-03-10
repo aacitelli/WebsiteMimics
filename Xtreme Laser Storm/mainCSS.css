@@ -233,9 +233,28 @@ ul
     background-color: black;
     color: white;
     text-align: center;
-    padding: 40px 20px 40px 20px;
+    padding: 40px 20px 60px 20px;
 }
 
+#eventsSpace
+{
+    width: 100%;
+    height: auto;
+
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+#eventsLeftContainer
+{
+    float: left;
+}
+
+#eventsRightContainer
+{
+    margin-left: 50%;
+}
 
 
 
