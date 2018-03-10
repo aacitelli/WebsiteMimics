@@ -4,6 +4,17 @@
     padding: 0;
     border: none;
     vertical-align: baseline;
+    z-index: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
 }
 
 #navbar
@@ -12,6 +23,7 @@
 
     width: 100%;
     height: auto;
+    z-index: 1;
 
     text-align: center;
     background: rgb(50, 50, 50);
@@ -41,7 +53,6 @@
 
 #navbar a
 {
-    text-decoration: none;
     color: white;
 }
 
@@ -56,40 +67,88 @@
     margin-bottom: 10px;
 }
 
-#titleSpace
-{
-    width: 100%;
-    height: auto;
-    background-image: url("https://partywirks.com/asset/asset/15192/F9C51DB1-680F-45B4-B1A8-944C107B2CB9.jpg?1512425589");
-}
-
 #mainBody
 {
-    width: 100%
+    width: 100%;
     height: auto;
 }
 
 #titleSpace
 {
     text-align: center;
+
     width: 100%;
     height: auto;
-    background-repeat: no-repeat;
+    min-height: 800px;
+
+    background-image: url("https://partywirks.com/asset/asset/15192/F9C51DB1-680F-45B4-B1A8-944C107B2CB9.jpg?1512425589");
+    background-size: cover;
 }
 
 #storeTitle
 {
     position: relative;
-    margin-top: -400px;
+
+    top: 300px;
     font-size: 70px;
+
     color: white;
-    text-
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #storeSlogan
 {
     position: relative;
-    margin-top: 50px;
+
+    top: 350px;
     font-size: 30px;
+
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#overviewSpace
+{
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    background-color: black;
+    text-align: center;
+}
+
+#overviewText
+{
     color: white;
 }
+
+.columnContainer
+{
+    /* Size */
+    /* End pixel value always has to be double the padding so it doesn't wrap off the page */
+    width: calc(50% - 160px);
+    padding: 80px;
+
+    /* Text Formatting */
+    color: white;
+}
+
+#overviewLeftContainer
+{
+    /* Positioning */
+    float: left;
+    border-right: 1px white solid;
+}
+
+#overviewRightContainer
+{
+    /* Positioning */
+    margin-left: 50%;
+    border-left: 1px white solid;
+}
+
+
+
+
+
+
+
