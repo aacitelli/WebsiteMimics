@@ -10,35 +10,148 @@
     color: white;
     text-decoration: none;
     list-style-type: none;
+
+    /* Everything lays under the navbar */
+    z-index: 0;
+}
+
+.pageSection
+{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.column
+{
+    margin: 20px;
+}
+
+.sectionHeaders
+{
+    font-size: 50px;
 }
 
 #navbar
 {
+    /* Positioning */
     position: fixed;
+    z-index: 1; /* In front of all other content */
+    padding-bottom: 8px;
 
+    /* Sizing */
     width: 100%;
-    height: 60px;
+    height: auto;
 
-    /* Keeps the navbar in front of the rest of the page content, which is at z-index: 0 */
-    z-index: 1;
+    /* Coloring */
+    background: rgb(37, 33, 40);
+
+    /* Text Formatting & Coloring */
+    color: rgb(189, 189, 189);
+    font-size: 18px;
 
     text-align: center;
-    background: rgb(50, 50, 50);
+}
 
-    font-size: 18px;
+#navbar ul
+{
+    /* Positioning */
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 8px;
+
+    /* Sizing */
+    height: auto;
 }
 
 #navbar li
 {
+    position: relative;
     display: inline;
 
+    /* Maintain separation between elements */
     padding-left: 20px;
     padding-right: 20px;
-
-    /* Account for bullet point margin space */
-    margin-left: -3px;
-    margin-right: -2px;
-
-    /* Testing */
-    border: 1px dotted white;
 }
+
+#navbar li:last-child
+{
+    border: none;
+}
+
+#navbar p
+{
+    color: rgb(189, 21, 21);
+}
+
+#titleSpace
+{
+    position: relative;
+    background-image: url("https://partywirks.com/asset/asset/15192/F9C51DB1-680F-45B4-B1A8-944C107B2CB9.jpg?1512425589");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+
+    height: auto;
+    text-align: center;
+}
+
+#storeTitle
+{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: relative;
+    top: 200px;
+    font-size: 70px;
+}
+
+#storeSlogan
+{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: relative;
+    top: 240px;
+    font-size: 40px;
+}
+
+#bookNowSpace
+{
+    /* Positioning */
+    position: absolute;
+    top: 450px;
+    left: calc(50% - 150px);
+
+    /* Size */
+    width: 300px;
+    height: 80px;
+
+    /* Coloring */
+    background-color: rgb(37, 33, 40);
+
+    /* Text Formatting & Positioning */
+    color: white;
+}
+
+#bookNowText
+{
+    height: 80px;
+    line-height: 80px;
+
+    font-size: 25px;
+}
+
+#overviewSpace
+{
+    background-color: rgb(37, 33, 40);
+}
+
+#overviewLeftColumn
+{
+    float: left;
+    width: 50%;
+}
+
+#overviewRightColumn
+{
+    left: 50%;
+}
+
