@@ -81,8 +81,13 @@ a
     color: rgb(189, 21, 21);
 }
 
-#contactInfoText
+#holidayHoursText:hover
+{
+    color: white;
+}
 
+
+#contactInfoText
 {
     color: white;
 }
@@ -183,10 +188,9 @@ a
 #overviewLeftColumn
 {
     /* Positioning */
-    position: absolute;
+    position: relative;
 
     padding: 40px;
-    margin: 0;
 
     float: left;
     width: 50%;
@@ -199,11 +203,12 @@ a
 #overviewRightColumn
 {
     /* Positioning */
-    position: absolute;
+    position: static;
 
     padding: 40px;
 
     left: 50%;
+    width: 50%;
 
     /* Text Formatting */
     font-size: 18px;
