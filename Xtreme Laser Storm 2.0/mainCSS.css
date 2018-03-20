@@ -97,6 +97,20 @@ a
     color: rgb(189, 21, 21);
 }
 
+#hoursButton
+{
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    height: 68px;
+    width: 160px;
+
+    background-color: rgb(189, 21, 21);
+    line-height: 68px;
+}
+
 #holidayHoursButton
 {
     position: absolute;
@@ -192,9 +206,6 @@ a
 
     padding: 40px;
 
-    float: left;
-    width: 50%;
-
     /* Text Formatting */
     font-size: 18px;
     color: white;
@@ -207,11 +218,9 @@ a
 
     padding: 40px;
 
-    left: 50%;
-    width: 50%;
-
     /* Text Formatting */
     font-size: 18px;
     color: white;
+
 }
 
